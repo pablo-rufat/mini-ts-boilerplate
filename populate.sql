@@ -1,8 +1,8 @@
 CREATE DATABASE IF NOT EXISTS AtividadesTs;
 
 CREATE TABLE AtividadesTs.Users (
-	id VARCHAR(10) NOT NULL PRIMARY KEY,
+	id VARCHAR(36) NOT NULL PRIMARY KEY,
 	name VARCHAR(255) NOT NULL
 );
 
-INSERT INTO AtividadesTs.Users(id, name)VALUES('aaaaaaaaaa', 'Pablo');
+INSERT INTO AtividadesTs.Users(id, name)VALUES('962756ba-018c-47b2-a661-d3fa05ad16b1', 'Pablo');
