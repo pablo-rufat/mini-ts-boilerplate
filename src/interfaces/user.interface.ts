@@ -1,1 +1,3 @@
-export default interface IUser {};
+export default interface IUser {
+    id: string;
+};

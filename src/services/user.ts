@@ -3,7 +3,7 @@ import { UserModel } from '../models';
 import connection from '../models/connection';
 
 export default class UserService {
-    public model: UserModel;
+    private model: UserModel;
   
     constructor() {
       this.model = new UserModel(connection);
